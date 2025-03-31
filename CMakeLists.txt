@@ -38,7 +38,6 @@ list(APPEND ComplexNumber_LINKED_LIBRARIES PRIVATE GTest::gmock_main)
 ################################################################################
 add_executable(${PROJECT_NAME}
     main.cpp
-    function.hpp
     ${ComplexNumber_SOURCES}
     ${ComplexNumber_HEADERS})
 
